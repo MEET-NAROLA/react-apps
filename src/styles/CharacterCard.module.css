@@ -1,0 +1,16 @@
+.card {
+  height: 450px;
+  border: 2px solid black;
+  width: 350px;
+}
+.imgContainer {
+    height: 200px;
+  
+}
+.description{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
